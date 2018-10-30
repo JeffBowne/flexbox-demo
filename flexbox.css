@@ -95,12 +95,12 @@ body {
 
 
 
-.section-a .three {
+.section-a__thing--three {
 	/*background-color: white;*/
 	/*order: 1;*/
 }
 
-.section-a .four {
+.section-a__thing--four {
 	/*background-color: grey;*/
 	/*order: -1;*/
 }
