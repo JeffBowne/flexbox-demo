@@ -2,21 +2,16 @@
 /*-------------------------------  the Flex-box fun is at the bottom!  -------------------------------*/
 /*-------------------------------  the Flex-box fun is at the bottom!  -------------------------------*/
 /*-------------------------------  the Flex-box fun is at the bottom!  -------------------------------*/
-/*-------------------------------  the Flex-box fun is at the bottom!  -------------------------------*/
 
 body { 
 	background: tomato; 
 	font-family: Helvetica;
 } 
 
-h1 { 
+.flexbox-heading { 
 	text-align: center; 
-	letter-spacing: 10px; 
-	/*border-top: 3px solid black;*/
-	/*border-bottom: 3px solid black;*/
-	/*border-radius: 100px;*/
-	/*background: #FF724F*/
-		   text-shadow:
+	letter-spacing: 10px;
+	text-shadow:
        3px 3px 0 #FFF,
      -1px -1px 0 #FFF,  
       1px -1px 0 #FFF,
@@ -28,63 +23,43 @@ h1 {
        2px 2px 15px #FFB28F;
 }
 
-
-
-.thang1 { 
-	border: 6px dotted #E2B000; 
-	border-radius: 6px; 
-	margin-top: 10px; 
+.section-a { 
+	border: 6px dotted #E2B000;
+	margin-top: 10px;
 }
 
-.thang2 { 
-	border: 6px dotted #E2B000; 
-	border-radius: 6px; 
-	margin-top: 10px; 
+.section-b { 
+	border: 6px dotted #E2B000;
+	margin-top: 10px;
 }
 
-
-
-.thang1 div { 
-	background: #ccaacc; 
-	border: 1px solid #9E8DA7; 
-	font-size: 40px; 
+.section-a__thing { 
+	background: #ccaacc;
+	border: 1px solid #9E8DA7;
+	font-size: 40px;
 	border-radius: 10px;
 }
 
-.thang2 div{ 
-	background: #aaccaa; 
-	border: 1px solid #75B391; 
-	font-size: 40px; 
+.section-b__thing{ 
+	background: #aaccaa;
+	border: 1px solid #75B391;
+	font-size: 40px;
 	border-radius: 10px;
 }
 
 
 
+/*---------------------------------------  Flexbox Time  ---------------------------------------*/
+/*---------------------------------------  Flexbox Time  ---------------------------------------*/
+/*---------------------------------------  Flexbox Time  ---------------------------------------*/
+/*---------------------------------------  Flexbox Time  ---------------------------------------*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------------------------------  Flex-box Time  ---------------------------------------*/
-/*---------------------------------------  Flex-box Time  ---------------------------------------*/
-/*---------------------------------------  Flex-box Time  ---------------------------------------*/
-
-
-
-.thang1 { 
+.section-a { 
 	height: 400px;
 
-	display: flex;
+
+	/*display: flex;*/
 
 	/*justify-content: flex-end;*/
 	/*justify-content: space-between;*/
@@ -99,27 +74,18 @@ h1 {
 	/*flex-direction: row-reverse;*/
 	/*flex-direction: column;*/
 	/*flex-direction: column-reverse;*/
-
-
-
 }
 
-.thang2 { 
-
-	/*display: flex;*/
-}
-
-
-
-
-
-
-.thang1 div { 
+.section-a__thing { 
 	height: 50px;
 	width: 50px;
 }
 
-.thang2 div{ 
+.section-b { 
+	/*display: flex;*/
+}
+
+.section-b__thing{ 
 	/*height: 50px;*/
 	/*width: 50px;*/
 }
@@ -129,16 +95,12 @@ h1 {
 
 
 
-.thang1 .three {
+.section-a .three {
 	/*background-color: white;*/
 	/*order: 1;*/
 }
 
-.thang1 .four {
+.section-a .four {
 	/*background-color: grey;*/
 	/*order: -1;*/
 }
-
-
-
-
