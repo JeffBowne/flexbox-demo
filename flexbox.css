@@ -57,16 +57,19 @@ body {
 
 	/*display: flex;*/
 
+	/*justify-content: flex-start;*/
 	/*justify-content: flex-end;*/
 	/*justify-content: space-between;*/
 	/*justify-content: space-around;*/
 	/*justify-content: center;*/
 
+	/*align-items: flex-start;*/
 	/*align-items: flex-end;*/
 	/*align-items: center;*/
 	/*align-items: baseline;*/
 	/*align-items: stretch;*/
 
+	/*flex-direction: row;*/
 	/*flex-direction: row-reverse;*/
 	/*flex-direction: column;*/
 	/*flex-direction: column-reverse;*/
@@ -76,31 +79,20 @@ body {
 	height: 50px;
 	width: 50px;
 }
+/*
 
-
-
-
-
-.section-b { 
-	/*display: flex;*/
-}
-
-.section-b__thing{ 
-	/*height: 50px;*/
-	/*width: 50px;*/
+.section-a__thing:nth-child(even) {
+	order: 1;
 }
 
 
+.section-a__thing:nth-child(odd) {
+	order: 2;
+}
+*/
 
-
-
-
-.section-a__thing--three {
-	/*background-color: white;*/
-	/*order: 1;*/
+.section-b {
 }
 
-.section-a__thing--four {
-	/*background-color: grey;*/
-	/*order: -1;*/
+.section-b__thing{
 }
